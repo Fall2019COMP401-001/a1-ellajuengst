@@ -25,7 +25,7 @@ public class A1Novice {
 				total += totprice;
 			}
 			String firstinitial = first.substring(0,1);
-			System.out.println(firstinitial + ". " + last + " " + String.format("%.2f", total));
+			System.out.println(firstinitial + ". " + last + ": " + String.format("%.2f", total));
 		}
 		
 	
