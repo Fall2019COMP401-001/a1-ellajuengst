@@ -48,7 +48,7 @@ public class A1Adept {
 				biggestName = custNames[i];
 			}
 		}
-		System.out.println("Biggest: " + biggestName + "(" + String.format("%.2f", biggestTotal) + ")");
+		System.out.println("Biggest: " + biggestName + " (" + String.format("%.2f", biggestTotal) + ")");
 		
 		double smallestTotal = totalsForCustomers[0];
 		String smallestName = "";
@@ -68,6 +68,6 @@ public class A1Adept {
 		}
 		average = totalSpent/customers;
 		
-		System.out.println("Average: " + " (" + String.format("%.2f", average) + ")");
+		System.out.println("Average: " + "(" + String.format("%.2f", average) + ")");
 	}
 }
