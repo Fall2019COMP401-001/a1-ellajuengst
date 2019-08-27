@@ -68,6 +68,6 @@ public class A1Adept {
 		}
 		average = totalSpent/customers;
 		
-		System.out.println("Average: " + "(" + String.format("%.2f", average) + ")");
+		System.out.println("Average: " + String.format("%.2f", average));
 	}
 }
